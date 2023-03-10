@@ -1,0 +1,90 @@
+@font-face {
+    font-family: karla;
+    src: url("Karla/Karla-VariableFont_wght.ttf");
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    left: 645px;
+    top: 64px;
+    background: #ECFDF5;
+    border: 1px solid #000000;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+h3{
+    margin-top: 115px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    color: #2B283A;
+    margin-bottom: 10px;
+}
+
+span{
+    color: #10B981;
+}
+
+p{
+    margin-top: 0px;
+    font-family: 'Inter', 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #6B7280;
+}
+
+button{
+    padding: 5px 7px 9px 15px;
+    gap: 12px;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+    margin-top: 51px;
+}
+
+#outputs{
+    display: flex;
+    border-top: 1px solid #D5D4D8;
+    margin-bottom: 35px;
+}
+
+.output-fld{
+    margin-top: 35px;
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    margin-right: 24px;
+    color: #5DEF92;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 15px;
+}
